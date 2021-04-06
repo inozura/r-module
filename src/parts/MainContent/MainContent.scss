@@ -1,0 +1,13 @@
+.main-content {
+  display: block;
+  padding-top: 25px;
+
+  @media(min-width: 768px) {
+    margin-left: 0;
+    transition: .3s ease-in-out;
+  
+    &.toggled {
+      margin-left: 280px;
+    }
+  }
+}

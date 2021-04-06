@@ -1,0 +1,15 @@
+section.weblink {
+
+  .link-weblink {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+
+  .wrap-options {
+    margin-top: 20px;
+  }
+}

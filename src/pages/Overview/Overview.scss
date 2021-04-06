@@ -1,0 +1,19 @@
+.main-table {
+  margin-top: 10px;
+
+  .status-cell {
+    max-width: 70px;
+    max-height: 30px;
+    padding: 3px 6px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &.green {
+      background-color: rgb(16, 202, 16);
+    }
+
+    &.red {
+      background-color: rgb(209, 4, 4);
+    }
+  }
+}
